@@ -1,0 +1,89 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-M Changelog 0.4 - 27/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Settings
+--------
+  - WiFi : toggle to change "scan always available"
+  - More : statusbar network indicators
+  - Display : 0, 90, 180 and 270 degree & lockscreen rotation
+  - Display : double tap to sleep gesture (statusbar, navbar, lockscreen anywhere)
+  - Display : custom LCD density
+  - Display : finer font size control (slider)
+  - Display : Expanded desktop (fixed themability of expanded desktop settings)
+  - Display : toggle to wake device when charger is un-/plugged
+  - Sound : unlink notification volume
+  - Sound : increasing ring feature
+  - Sound : toggle to reorient volume rockers according to screen rotation
+  - Sound - Other sounds : camera sound toggle
+  - Apps : per app controls for keyguard notifications
+  - Apps : scrollbar in manage applications screen
+  - Apps - App Info : open app by tapping app icon
+  - Apps - App Info : show app package name
+  - Battery : additional battery saver steps
+  - Security : quick unlock
+  - Date and Time : statusbar clock and date customizations
+  - Developer : toggle Android debugging notification
+  - Developer : finer animation speed control (slider)
+  - Developer : customize device hostname
+  - SuperSU : include SuperSU app in settings
+  - About device : show hardware and processor info
+  - About device : show SELinux status in Settings About
+  - System UI Tuning : show entry
+  - System UI Tuning : statusbar battery icon customizations
+
+Phone
+-----
+  - Reverse phone number lookup
+  - Proximity speaker
+  - Flip to Mute/Reject Call
+  - Incall vibration features
+
+Features
+--------
+  - added busybox
+  - gapps patches (though still no permissions given by default to play services --> FC until given)
+  - SuperSU SELinux patch (any SuperSU will run in enforcing)
+  - various SELinux fixes
+  - remove vendor partiton fingerprint check
+  - system update disabled
+  - show name of app beeing optimized on boot / also on first boot
+  - icons updated to material design (might still have missed some...)
+  - improve scrolling cache
+  - Layers 4.0 support
+  - faded inactive bluetooth icon
+  - smoother Upload and Download Animation
+  - show icon of package associated with Toast
+  - packageinstaller : show current and new version
+  - disable AOSP recovery overwriting on boot
+  - ad-blocking hosts file
+  - updated apns-config
+
+Flasher ZIP
+-----------
+  - remove date assert
+  - disable the after flash image verification
+  - use Nexus audio files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Device specific changes - Angler
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kernel - Angler
+---------------
+  - XZ kernel compression
+  - /proc/config.gz support
+  - Westwood TCP congestion control default
+  - KCAL support
+  - LiveDisplay support
+  - FIOPS I/O scheduler
+
+Device - Angler
+---------------
+  - enable doze power saving mode
+  - Make encryption optional in fstab
+  - revert dm-verity
+  - use new 3gb dalvik heap and hwui
+  - add functionality to enable/disable double-tap wake gesture in Display Settings
+  - increase swap to 1Gb
+  - default to fiops I/O scheduler / 1024Kb readahead buffer
