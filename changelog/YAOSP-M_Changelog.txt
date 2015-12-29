@@ -1,6 +1,6 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.4 - 27/12/2015
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-M Changelog 0.4a - 29/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Settings
 --------
@@ -21,7 +21,7 @@ Settings
   - Apps - App Info : open app by tapping app icon
   - Apps - App Info : show app package name
   - Battery : additional battery saver steps
-  - Security : quick unlock
+  - ----> removed for now to avoid user lockout - Security : quick unlock
   - Date and Time : statusbar clock and date customizations
   - Developer : toggle Android debugging notification
   - Developer : finer animation speed control (slider)
