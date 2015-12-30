@@ -1,6 +1,6 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.4a - 29/12/2015
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-M Changelog 0.5 - 30/12/2015
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Settings
 --------
@@ -21,7 +21,14 @@ Settings
   - Apps - App Info : open app by tapping app icon
   - Apps - App Info : show app package name
   - Battery : additional battery saver steps
+  - Location : 3-dot menu (Scanning)
   - ----> removed for now to avoid user lockout - Security : quick unlock
+  - Security : Advanced reboot
+  - Language & Input - Advanced options : IME selector notification
+  - Language & Input - Advanced options : Landscape keyboard will never take up entire screen
+  - Language & Input - Advanced options : Auto keyboard rotation
+  - Language & Input - Advanced options : Volume key cursor control
+  - Language & Input - Advanced options : Force show enter key
   - Date and Time : statusbar clock and date customizations
   - Developer : toggle Android debugging notification
   - Developer : finer animation speed control (slider)
@@ -42,7 +49,7 @@ Phone
 Features
 --------
   - added busybox
-  - gapps patches (though still no permissions given by default to play services --> FC until given)
+  - gapps patches
   - SuperSU SELinux patch (any SuperSU will run in enforcing)
   - various SELinux fixes
   - remove vendor partiton fingerprint check
