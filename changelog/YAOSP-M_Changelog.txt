@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.5 - 30/12/2015
+YAOSP-M Changelog 0.6 - 02/01/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Settings
@@ -16,14 +16,15 @@ Settings
   - Sound : increasing ring feature
   - Sound : toggle to reorient volume rockers according to screen rotation
   - Sound - Other sounds : camera sound toggle
-  - Apps : per app controls for keyguard notifications
+  - Apps : per app controls for keyguard notifications (ongoing not shown on lockscreen by default)
   - Apps : scrollbar in manage applications screen
   - Apps - App Info : open app by tapping app icon
   - Apps - App Info : show app package name
   - Battery : additional battery saver steps
   - Location : 3-dot menu (Scanning)
   - ----> removed for now to avoid user lockout - Security : quick unlock
-  - Security : Advanced reboot
+  - Security : Global menu options
+  - Security : Advanced reboot (enabled everywhere by default)
   - Language & Input - Advanced options : IME selector notification
   - Language & Input - Advanced options : Landscape keyboard will never take up entire screen
   - Language & Input - Advanced options : Auto keyboard rotation
@@ -31,6 +32,7 @@ Settings
   - Language & Input - Advanced options : Force show enter key
   - Date and Time : statusbar clock and date customizations
   - Developer : toggle Android debugging notification
+  - Developer : make unaccounted and over-counted battery usage configurable
   - Developer : finer animation speed control (slider)
   - Developer : customize device hostname
   - SuperSU : include SuperSU app in settings
@@ -45,6 +47,10 @@ Phone
   - Proximity speaker
   - Flip to Mute/Reject Call
   - Incall vibration features
+
+DeskClock
+---------
+  - Fix FC when trying to view world cities
 
 Features
 --------
@@ -63,14 +69,18 @@ Features
   - show icon of package associated with Toast
   - packageinstaller : show current and new version
   - disable AOSP recovery overwriting on boot
-  - ad-blocking hosts file
+  - ad-blocking hosts file (2015-03-31)
   - updated apns-config
+  - use Nexus audio files
+  - SlimActions
+  - Slim's hardware key rebinder
+    (would appear in "Language & Input" settings if device had hardware keys,
+     this is needed for navbar customizations, though)
 
 Flasher ZIP
 -----------
   - remove date assert
   - disable the after flash image verification
-  - use Nexus audio files
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Angler
