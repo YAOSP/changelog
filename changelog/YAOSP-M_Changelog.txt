@@ -1,6 +1,8 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.6 - 02/01/2016
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-M Changelog 0.61 - 05/01/2016
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Based on AOSP 6.0.1_r9
 
 Settings
 --------
@@ -20,6 +22,7 @@ Settings
   - Apps : scrollbar in manage applications screen
   - Apps - App Info : open app by tapping app icon
   - Apps - App Info : show app package name
+  - Storage & USB : fixed themability of total device storage size text
   - Battery : additional battery saver steps
   - Location : 3-dot menu (Scanning)
   - ----> removed for now to avoid user lockout - Security : quick unlock
