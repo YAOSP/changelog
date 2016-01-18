@@ -1,6 +1,6 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.61 - 05/01/2016
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-M Changelog 0.7 - 18/01/2016
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r9
 
@@ -33,7 +33,8 @@ Settings
   - Language & Input - Advanced options : Auto keyboard rotation
   - Language & Input - Advanced options : Volume key cursor control
   - Language & Input - Advanced options : Force show enter key
-  - Date and Time : statusbar clock and date customizations
+  - Language & Input - Navigation : NavBar options (Slim NavBar incl. animated back & cursor buttons)
+  - Date and Time : statusbar clock and date customizations (fix color not sticking)
   - Developer : toggle Android debugging notification
   - Developer : make unaccounted and over-counted battery usage configurable
   - Developer : finer animation speed control (slider)
@@ -59,6 +60,7 @@ Features
 --------
   - added busybox
   - gapps patches
+  - Keep Google services enabled to avoid excessive wakeups during screen off
   - SuperSU SELinux patch (any SuperSU will run in enforcing)
   - various SELinux fixes
   - remove vendor partiton fingerprint check
