@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.7 - 18/01/2016
+YAOSP-M Changelog 0.8 - 21/01/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r9
@@ -33,7 +33,7 @@ Settings
   - Language & Input - Advanced options : Auto keyboard rotation
   - Language & Input - Advanced options : Volume key cursor control
   - Language & Input - Advanced options : Force show enter key
-  - Language & Input - Navigation : NavBar options (Slim NavBar incl. animated back & cursor buttons)
+  - Language & Input - Navigation : NavBar options (Slim NavBar incl. SlimDim, animated back & cursor buttons)
   - Date and Time : statusbar clock and date customizations (fix color not sticking)
   - Developer : toggle Android debugging notification
   - Developer : make unaccounted and over-counted battery usage configurable
