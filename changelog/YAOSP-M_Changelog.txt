@@ -1,6 +1,6 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.8 - 21/01/2016
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-M Changelog 0.81 - 24/01/2016
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r9
 
@@ -33,7 +33,11 @@ Settings
   - Language & Input - Advanced options : Auto keyboard rotation
   - Language & Input - Advanced options : Volume key cursor control
   - Language & Input - Advanced options : Force show enter key
-  - Language & Input - Navigation : NavBar options (Slim NavBar incl. SlimDim, animated back & cursor buttons)
+  - Language & Input - Navigation : NavBar options (Slim NavBar)
+  - Language & Input - Navigation : NavBar options - animated back button
+  - Language & Input - Navigation : NavBar options - cursor buttons
+  - Language & Input - Navigation : NavBar options - SlimDim
+  - Language & Input - Navigation : NavBar options - Google Now on Tap as longpress Home reinstated
   - Date and Time : statusbar clock and date customizations (fix color not sticking)
   - Developer : toggle Android debugging notification
   - Developer : make unaccounted and over-counted battery usage configurable
@@ -99,6 +103,7 @@ Kernel - Angler
   - KCAL support
   - LiveDisplay support
   - FIOPS I/O scheduler
+  - Fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
 
 Device - Angler
 ---------------
