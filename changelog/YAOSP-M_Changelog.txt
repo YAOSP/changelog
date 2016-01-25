@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.82 - 24/01/2016
+YAOSP-M Changelog 0.85 - 25/01/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r9
@@ -47,6 +47,8 @@ Settings
   - About device : show hardware and processor info
   - About device : show SELinux status in Settings About
   - System UI Tuning : show entry
+  - System UI Tuning : QS settings - quick pulldown
+  - System UI Tuning : QS settings - show/hide brightness slider
   - System UI Tuning : statusbar battery icon customizations
 
 Phone
