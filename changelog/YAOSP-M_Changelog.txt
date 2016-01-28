@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.85 - 25/01/2016
+YAOSP-M Changelog 0.86 - 28/01/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r9
@@ -25,7 +25,7 @@ Settings
   - Storage & USB : fixed themability of total device storage size text
   - Battery : additional battery saver steps
   - Location : 3-dot menu (Scanning)
-  - ----> removed for now to avoid user lockout - Security : quick unlock
+  - Security : quick unlock (only works for 4-digit PINs / Passwords to avoid lockout)
   - Security : Global menu options
   - Security : Advanced reboot (enabled everywhere by default)
   - Language & Input - Advanced options : IME selector notification
