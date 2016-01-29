@@ -1,6 +1,6 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.86 - 28/01/2016
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-M Changelog 0.9 - 29/01/2016
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r9
 
@@ -50,6 +50,10 @@ Settings
   - System UI Tuning : QS settings - quick pulldown
   - System UI Tuning : QS settings - show/hide brightness slider
   - System UI Tuning : statusbar battery icon customizations
+  - System UI Tuning : Recent apps settings - show only running tasks
+  - System UI Tuning : Recent apps settings - Show searchbar
+  - System UI Tuning : Recent apps settings - Show clear all button / location (top/bottom, left/center/right)
+  - System UI Tuning : Recent apps settings - Clear all tasks
 
 Phone
 -----
