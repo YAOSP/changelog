@@ -122,3 +122,23 @@ Device - Angler
   - add functionality to enable/disable double-tap wake gesture in Display Settings
   - increase swap to 1Gb
   - default to fiops I/O scheduler / 1024Kb readahead buffer
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Device specific changes - Flounder
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kernel - Flounder
+-----------------
+  - XZ kernel compression
+  - /proc/config.gz support
+  - Westwood TCP congestion control default
+  - FIOPS I/O scheduler
+  - Fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
+
+Device - Flounder
+-----------------
+  - enable doze power saving mode
+  - Make encryption optional in fstab
+  - revert dm-verity
+  - increase swap to 768Mb
+  - default to fiops I/O scheduler / 1024Kb readahead buffer
