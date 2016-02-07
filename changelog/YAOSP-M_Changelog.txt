@@ -142,3 +142,55 @@ Device - Flounder
   - revert dm-verity
   - increase swap to 768Mb
   - default to fiops I/O scheduler / 1024Kb readahead buffer
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Device specific changes - Shamu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kernel - Shamu
+--------------
+  - XZ kernel compression
+  - /proc/config.gz support
+  - Westwood TCP congestion control default
+  - Powersuspend v1.7 (faux123 / Yank555.lu)
+  - IntelliPlug v4.0 (faux123)
+  - FauxSound v3.6 (faux123)
+  - Async fsync by htc (through faux123 / imoseyon)
+  - KCAL support (via imoseyon)
+  - LiveDisplay support (via imoseyon)
+  - FIOPS I/O scheduler (port by faux123)
+  - exfat support (through Samsung)
+  - Yankactive governor (Yank555.lu)
+  - Virbrator control (imoseyon)
+  - Simple GPU algorithm (faux123)
+  - Enable all 5GHz channels (Yank555.lu)
+  - Fastcharge (faux123)
+  - zswap support (faux123)
+  - CPU Hardlimit v2.2 (Yank555.lu)
+  - Adreno idler (Park Ju Hyung aka. arter97)
+  - kexec hardboot support (aka. Multi-ROM)
+  - Fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
+
+Device - Shamu
+--------------
+  - enable doze power saving mode
+  - Make encryption optional in fstab
+  - revert dm-verity
+  - use new 3gb dalvik heap and hwui
+  - add functionality to enable/disable double-tap wake gesture in Display Settings
+  - Setup Yank555.lu kernel
+      - Enable Simple GPU algorithm
+      - Configure cpufreq Hardlimit driver
+          - Screen on  CPU min/max : 300MHz / 2.7GHz
+          - Screen off CPU min/max : 300MHz / 1.5GHz
+          - Wakeup kick            : 2.0GHz for 3 secs
+          - Touchboost lo/hi       : 883MHz / 1.3GHz
+          -     duration/switch    : 1 sec  / 4 touches for lo -> hi
+          - DVFS userspace lockout : ignore
+      - Setup CPU governor
+      - IntelliPlug (mpdecision disabled)
+      - IntelliThermal (thermal-engine disabled)
+      - Vibrator strength set to 63% (as compared to 100% stock)
+      - Display set to calibrated 6500K color temperature
+      - fiops I/O scheduler / 1024Kb readahead buffer
+      - 1Gb zswap
