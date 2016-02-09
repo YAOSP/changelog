@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Known Issues as of 28/01/2016
+YAOSP-M Known Issues as of 09/02/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Severe (causing crashes or reboots)
@@ -16,6 +16,8 @@ Normal priority (stuff we can live with for now)
 - Apps : per app controls for keyguard notifications (ongoing not shown on lockscreen by default)
 
   ongoing setting does not stick for all apps
+
+- AOSP Keyboard : gestures not working
 
 
 Low priority (like design glitches...)
