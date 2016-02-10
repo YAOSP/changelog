@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.92 - 02/02/2016
+YAOSP-M Changelog 0.93 - 09/02/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r13 (synced on 20160202 1018 CET)
@@ -14,10 +14,12 @@ Settings
   - Display : finer font size control (slider)
   - Display : Expanded desktop (fixed themability of expanded desktop settings)
   - Display : toggle to wake device when charger is un-/plugged
-  - Sound : unlink notification volume
-  - Sound : increasing ring feature
-  - Sound : toggle to reorient volume rockers according to screen rotation
-  - Sound - Other sounds : camera sound toggle
+  - Sound & Notifications : unlink notification volume
+  - Sound & Notifications : increasing ring feature
+  - Sound & Notifications : toggle to reorient volume rockers according to screen rotation
+  - Sound & Notifications - Other sounds : camera sound toggle
+  - Sound & Notifications : notification light (per-app)
+  - Sound & Notifications : battery light
   - Apps : per app controls for keyguard notifications (ongoing not shown on lockscreen by default)
   - Apps : scrollbar in manage applications screen
   - Apps - App Info : open app by tapping app icon
@@ -122,6 +124,8 @@ Device - Angler
   - add functionality to enable/disable double-tap wake gesture in Display Settings
   - increase swap to 1Gb
   - default to fiops I/O scheduler / 1024Kb readahead buffer
+  - add notification and battery light
+    (dimming is not possible, only a few colors will work, this seems a device limitiation)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Flounder
@@ -142,6 +146,8 @@ Device - Flounder
   - revert dm-verity
   - increase swap to 768Mb
   - default to fiops I/O scheduler / 1024Kb readahead buffer
+  - add notification light
+    (dimming is not possible, only white, this is a device limitiation)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Shamu
@@ -194,3 +200,6 @@ Device - Shamu
       - Display set to calibrated 6500K color temperature
       - fiops I/O scheduler / 1024Kb readahead buffer
       - 1Gb zswap
+  - add notification and battery light
+    (dimming is not possible, only a few colors will work, this is a device limitiation)
+  - fix QMUXD (and silence its logcat spamming)
