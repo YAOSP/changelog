@@ -203,3 +203,6 @@ Device - Shamu
   - add notification and battery light
     (dimming is not possible, only a few colors will work, this is a device limitiation)
   - fix QMUXD (and silence its logcat spamming)
+  - disable Qualcomm's battery current limit hack
+    (avoids putting device to dualcore on 36° temp or unstable battery current, nice idea
+     but didn't help with the shutdown issues at all, just crippled performance)
