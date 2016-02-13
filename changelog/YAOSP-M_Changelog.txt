@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.93 - 09/02/2016
+YAOSP-M Changelog 0.94 - 13/02/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r13 (synced on 20160202 1018 CET)
@@ -14,6 +14,7 @@ Settings
   - Display : finer font size control (slider)
   - Display : Expanded desktop (fixed themability of expanded desktop settings)
   - Display : toggle to wake device when charger is un-/plugged
+  - Display : Ambient display options (Slim Doze options by Dankoman)
   - Sound & Notifications : unlink notification volume
   - Sound & Notifications : increasing ring feature
   - Sound & Notifications : toggle to reorient volume rockers according to screen rotation
@@ -38,7 +39,7 @@ Settings
   - Language & Input - Navigation : NavBar options (Slim NavBar)
   - Language & Input - Navigation : NavBar options - animated back button
   - Language & Input - Navigation : NavBar options - cursor buttons
-  - Language & Input - Navigation : NavBar options - SlimDim
+  - Language & Input - Navigation : NavBar options - SlimDim by Dankoman
   - Language & Input - Navigation : NavBar options - Google Now on Tap as longpress Home reinstated
   - Date and Time : statusbar clock and date customizations (fix color not sticking)
   - Developer : toggle Android debugging notification
@@ -50,6 +51,7 @@ Settings
   - About device : show SELinux status in Settings About
   - System UI Tuning : show entry
   - System UI Tuning : QS settings - quick pulldown
+  - System UI Tuning : QS settings - smart pulldown
   - System UI Tuning : QS settings - show/hide brightness slider
   - System UI Tuning : statusbar battery icon customizations
   - System UI Tuning : Recent apps settings - show only running tasks
@@ -91,7 +93,7 @@ Features
   - ad-blocking hosts file (2015-03-31)
   - updated apns-config
   - use Nexus audio files
-  - SlimActions
+  - SlimActions (smartpuldown added)
   - Slim's hardware key rebinder
     (would appear in "Language & Input" settings if device had hardware keys,
      this is needed for navbar customizations, though)
