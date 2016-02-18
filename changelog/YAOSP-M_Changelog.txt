@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.94 - 13/02/2016
+YAOSP-M Changelog 0.95 - 14/02/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r13 (synced on 20160202 1018 CET)
@@ -14,7 +14,8 @@ Settings
   - Display : finer font size control (slider)
   - Display : Expanded desktop (fixed themability of expanded desktop settings)
   - Display : toggle to wake device when charger is un-/plugged
-  - Display : Ambient display options (Slim Doze options by Dankoman)
+  - Display : Advanced doze options (Slim Doze options by Dankoman)
+  - Display - Advanced doze options : Double-tap to wake on doze option
   - Sound & Notifications : unlink notification volume
   - Sound & Notifications : increasing ring feature
   - Sound & Notifications : toggle to reorient volume rockers according to screen rotation
