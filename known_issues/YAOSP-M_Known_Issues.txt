@@ -17,8 +17,6 @@ Normal priority (stuff we can live with for now)
 
   ongoing setting does not stick for all apps
 
-- AOSP Keyboard : gestures not working
-
 
 Low priority (like design glitches...)
 --------------------------------------

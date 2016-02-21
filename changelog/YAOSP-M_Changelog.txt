@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.95 - 14/02/2016
+YAOSP-M Changelog 0.96 - 21/02/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r13 (synced on 20160202 1018 CET)
@@ -51,9 +51,17 @@ Settings
   - About device : show hardware and processor info
   - About device : show SELinux status in Settings About
   - System UI Tuning : show entry
-  - System UI Tuning : QS settings - quick pulldown
+  - System UI Tuning : QS settings - 16 custom tiles : usb tether, ambient display, screenshot,
+                                                       nfc, sync, screenoff, timeout, brightness,
+                                                       music, reboot, battery saver, volume, sound,
+                                                       expanded desktop, compass, ime
+                                                       (long-press for all tiles, advanced location)
+  - System UI Tuning : QS settings - first row tile size
+  - System UI Tuning : QS settings - custom number of tiles per row (3-4-5)
+  - System UI Tuning : QS settings - quick pulldown (incl. always option)
   - System UI Tuning : QS settings - smart pulldown
   - System UI Tuning : QS settings - show/hide brightness slider
+  - System UI Tuning : QS settings - statusbar brightness control
   - System UI Tuning : statusbar battery icon customizations
   - System UI Tuning : Recent apps settings - show only running tasks
   - System UI Tuning : Recent apps settings - Show searchbar
@@ -98,11 +106,15 @@ Features
   - Slim's hardware key rebinder
     (would appear in "Language & Input" settings if device had hardware keys,
      this is needed for navbar customizations, though)
+  - battery-light : only show full when battery is done charging (instead of at 90%)
+  - added more overflow keys to stock keyboard
+  - enabled gestures in stock keyboard (if gapps installed)
 
 Flasher ZIP
 -----------
   - remove date assert
   - disable the after flash image verification
+  - unmount /system before flashing update if /system is mounted
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Angler
@@ -116,7 +128,7 @@ Kernel - Angler
   - KCAL support
   - LiveDisplay support
   - FIOPS I/O scheduler
-  - Fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
+  - fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
 
 Device - Angler
 ---------------
