@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.96 - 21/02/2016
+YAOSP-M Changelog 0.97 - 27/02/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r13 (synced on 20160202 1018 CET)
@@ -42,7 +42,7 @@ Settings
   - Language & Input - Navigation : NavBar options - cursor buttons
   - Language & Input - Navigation : NavBar options - SlimDim by Dankoman
   - Language & Input - Navigation : NavBar options - Google Now on Tap as longpress Home reinstated
-  - Date and Time : statusbar clock and date customizations (fix color not sticking)
+  - Date and Time : statusbar clock and date customizations (incl. show seconds)
   - Developer : toggle Android debugging notification
   - Developer : make unaccounted and over-counted battery usage configurable
   - Developer : finer animation speed control (slider)
@@ -109,6 +109,8 @@ Features
   - battery-light : only show full when battery is done charging (instead of at 90%)
   - added more overflow keys to stock keyboard
   - enabled gestures in stock keyboard (if gapps installed)
+  - multi-window : allow up to 4 apps in multi-window on phones like on tabs
+  - multi-window : make icons white, popup background material dark
 
 Flasher ZIP
 -----------
@@ -191,6 +193,7 @@ Kernel - Shamu
   - Adreno idler (Park Ju Hyung aka. arter97)
   - kexec hardboot support (aka. Multi-ROM)
   - Fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
+  - Fix TMO WiFi calling
 
 Device - Shamu
 --------------
