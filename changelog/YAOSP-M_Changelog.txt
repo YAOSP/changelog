@@ -1,6 +1,6 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.97 - 27/02/2016
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-M Changelog 0.97a - 28/02/2016
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r13 (synced on 20160202 1018 CET)
 
@@ -19,6 +19,7 @@ Settings
   - Sound & Notifications : unlink notification volume
   - Sound & Notifications : increasing ring feature
   - Sound & Notifications : toggle to reorient volume rockers according to screen rotation
+  - Sound & Notifications : volume rockers to skip music track
   - Sound & Notifications - Other sounds : camera sound toggle
   - Sound & Notifications : notification light (per-app)
   - Sound & Notifications : battery light
@@ -71,9 +72,10 @@ Settings
 Phone
 -----
   - Reverse phone number lookup
-  - Proximity speaker
-  - Flip to Mute/Reject Call
   - Incall vibration features
+  - Flip to Mute/Reject Call
+  - Intrusive call notification
+  - Proximity speaker
 
 DeskClock
 ---------
