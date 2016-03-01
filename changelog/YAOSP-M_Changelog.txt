@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.97a - 28/02/2016
+YAOSP-M Changelog 0.97b - 01/03/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r13 (synced on 20160202 1018 CET)
@@ -14,6 +14,7 @@ Settings
   - Display : finer font size control (slider)
   - Display : Expanded desktop (fixed themability of expanded desktop settings)
   - Display : toggle to wake device when charger is un-/plugged
+  - Display : avoid accidental wakeups (check proximity sensor prior to turning screen on)
   - Display : Advanced doze options (Slim Doze options by Dankoman)
   - Display - Advanced doze options : Double-tap to wake on doze option
   - Sound & Notifications : unlink notification volume
@@ -42,7 +43,8 @@ Settings
   - Language & Input - Navigation : NavBar options - animated back button
   - Language & Input - Navigation : NavBar options - cursor buttons
   - Language & Input - Navigation : NavBar options - SlimDim by Dankoman
-  - Language & Input - Navigation : NavBar options - Google Now on Tap as longpress Home reinstated
+  - Language & Input - Navigation : NavBar options - Google Now on Tap is SlimAction an can be set anywhere
+  - Language & Input - Navigation : NavBar options - Longpress Home can be customized
   - Date and Time : statusbar clock and date customizations (incl. show seconds)
   - Developer : toggle Android debugging notification
   - Developer : make unaccounted and over-counted battery usage configurable
