@@ -1,8 +1,8 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 0.97b - 01/03/2016
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-M Changelog 1.00 - 08/03/2016
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Based on AOSP 6.0.1_r13 (synced on 20160202 1018 CET)
+Based on AOSP 6.0.1_r17 (synced on 20160308 1016 CET)
 
 Settings
 --------
@@ -23,7 +23,7 @@ Settings
   - Sound & Notifications : volume rockers to skip music track
   - Sound & Notifications - Other sounds : camera sound toggle
   - Sound & Notifications : notification light (per-app)
-  - Sound & Notifications : battery light
+  - Sound & Notifications : battery light (separate color for slow/fast charging)
   - Apps : per app controls for keyguard notifications (ongoing not shown on lockscreen by default)
   - Apps : scrollbar in manage applications screen
   - Apps - App Info : open app by tapping app icon
@@ -103,10 +103,10 @@ Features
   - show icon of package associated with Toast
   - packageinstaller : show current and new version
   - disable AOSP recovery overwriting on boot
-  - ad-blocking hosts file (2015-03-31)
+  - ad-blocking hosts file (2016-02-08)
   - updated apns-config
   - use Nexus audio files
-  - SlimActions (smartpuldown added)
+  - SlimActions (smartpuldown, now-on-tap, torch added)
   - Slim's hardware key rebinder
     (would appear in "Language & Input" settings if device had hardware keys,
      this is needed for navbar customizations, though)
@@ -115,6 +115,7 @@ Features
   - enabled gestures in stock keyboard (if gapps installed)
   - multi-window : allow up to 4 apps in multi-window on phones like on tabs
   - multi-window : make icons white, popup background material dark
+  - added native init.d support to all 4 devices
 
 Flasher ZIP
 -----------
