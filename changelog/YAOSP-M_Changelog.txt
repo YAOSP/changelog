@@ -1,8 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 1.00 - 08/03/2016
+YAOSP-M Changelog 1.00 - 10/03/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Based on AOSP 6.0.1_r17 (synced on 20160308 1016 CET)
+Based on AOSP 6.0.1_r22 (synced on 20160310 1435 CET)
 
 Settings
 --------
