@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 1.00 - 10/03/2016
+YAOSP-M Changelog 1.01 - 13/03/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r22 (synced on 20160310 1435 CET)
@@ -116,6 +116,8 @@ Features
   - multi-window : allow up to 4 apps in multi-window on phones like on tabs
   - multi-window : make icons white, popup background material dark
   - added native init.d support to all 4 devices
+  - show charging current in mAh on lockscreen
+  - add Viper4Android support in SELinux enforcing
 
 Flasher ZIP
 -----------
