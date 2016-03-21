@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 1.01 - 13/03/2016
+YAOSP-M Changelog 1.02 - 21/03/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r22 (synced on 20160310 1435 CET)
@@ -40,7 +40,7 @@ Settings
   - Language & Input - Advanced options : Volume key cursor control
   - Language & Input - Advanced options : Force show enter key
   - Language & Input - Navigation : NavBar options (Slim NavBar)
-  - Language & Input - Navigation : NavBar options - animated back button
+  - Language & Input - Navigation : NavBar options - animated back button (vector support)
   - Language & Input - Navigation : NavBar options - cursor buttons
   - Language & Input - Navigation : NavBar options - SlimDim by Dankoman
   - Language & Input - Navigation : NavBar options - Google Now on Tap is SlimAction an can be set anywhere
@@ -138,6 +138,7 @@ Kernel - Angler
   - LiveDisplay support
   - FIOPS I/O scheduler
   - fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
+  - fix fs/pipe.c related exploit (CVE-2015-1805)
 
 Device - Angler
 ---------------
@@ -162,6 +163,7 @@ Kernel - Flounder
   - Westwood TCP congestion control default
   - FIOPS I/O scheduler
   - Fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
+  - fix fs/pipe.c related exploit (CVE-2015-1805)
 
 Device - Flounder
 -----------------
@@ -191,16 +193,17 @@ Kernel - Shamu
   - FIOPS I/O scheduler (port by faux123)
   - exfat support (through Samsung)
   - Yankactive governor (Yank555.lu)
-  - Virbrator control (imoseyon)
-  - Simple GPU algorithm (faux123)
-  - Enable all 5GHz channels (Yank555.lu)
-  - Fastcharge (faux123)
+  - virbrator control (imoseyon)
+  - simple GPU algorithm (faux123)
+  - enable all 5GHz channels (Yank555.lu)
+  - fastcharge (faux123)
   - zswap support (faux123)
   - CPU Hardlimit v2.2 (Yank555.lu)
   - Adreno idler (Park Ju Hyung aka. arter97)
   - kexec hardboot support (aka. Multi-ROM)
-  - Fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
-  - Fix TMO WiFi calling
+  - fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
+  - fix TMO WiFi calling
+  - fix fs/pipe.c related exploit (CVE-2015-1805)
 
 Device - Shamu
 --------------
