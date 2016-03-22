@@ -13,10 +13,6 @@ Severe (causing crashes or reboots)
 Normal priority (stuff we can live with for now)
 ------------------------------------------------
 
-- Apps : per app controls for keyguard notifications (ongoing not shown on lockscreen by default)
-
-  ongoing setting does not stick for all apps
-
 - Angler kernel : enable all WiFi channels
 
 - Carrier specifics : enable Sprint and Verizon specific functions
