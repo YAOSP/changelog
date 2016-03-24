@@ -116,7 +116,6 @@ Features
   - enabled gestures in stock keyboard (if gapps installed)
   - multi-window : allow up to 4 apps in multi-window on phones like on tabs
   - multi-window : make icons white, popup background material dark
-  - added native init.d support to all 4 devices
   - show charging current in mAh on lockscreen
   - add Viper4Android support in SELinux enforcing
 
@@ -152,6 +151,7 @@ Device - Angler
   - default to fiops I/O scheduler / 1024Kb readahead buffer
   - add notification and battery light
     (dimming is not possible, only a few colors will work, this seems a device limitiation)
+  - added native init.d support
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Flounder
@@ -175,6 +175,7 @@ Device - Flounder
   - default to fiops I/O scheduler / 1024Kb readahead buffer
   - add notification light
     (dimming is not possible, only white, this is a device limitiation)
+  - add native init.d support
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Shamu
@@ -236,6 +237,7 @@ Device - Shamu
   - disable Qualcomm's battery current limit hack
     (avoids putting device to dualcore on 36° temp or unstable battery current, nice idea
      but didn't help with the shutdown issues at all, just crippled performance)
+  - add native init.d support
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Hammerhead
@@ -291,3 +293,27 @@ Device - Hammerhead
       - 768Mb zswap
       - fastcharge : usb 1000mA/h / ac 1800mA/h
   - add notification and battery light
+  - add native init.d support
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Device specific changes - Flo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kernel - Flo
+------------
+  - XZ kernel compression
+  - /proc/config.gz support
+  - Westwood TCP congestion control default
+  - FIOPS I/O scheduler (port by faux123)
+  - Yankactive governor (Yank555.lu)
+  - Yankdemand governor (Yank555.lu)
+  - Intellimm governor (faux123)
+  - fix fs/pipe.c related exploit (CVE-2015-1805)
+
+Device - Flo
+------------
+  - enable doze power saving mode
+  - Setup Yank555.lu kernel
+      - Setup CPU governor (intellimm)
+      - fiops I/O scheduler / 1024Kb readahead buffer
+  - add native init.d support
