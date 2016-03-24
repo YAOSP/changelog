@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 1.03 - 23/03/2016
+YAOSP-M Changelog 1.04 - 24/03/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r22 (synced on 20160310 1435 CET)
@@ -83,6 +83,7 @@ Phone
 DeskClock
 ---------
   - Fix FC when trying to view world cities
+  - Fix FC on alarm when screen is off
 
 Features
 --------
