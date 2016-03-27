@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 1.04 - 24/03/2016
+YAOSP-M Changelog 1.04 - 27/03/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r22 (synced on 20160310 1435 CET)
@@ -23,6 +23,7 @@ Settings
   - Sound & Notifications : volume rockers to skip music track
   - Sound & Notifications - Other sounds : camera sound toggle
   - Sound & Notifications - Other sounds : charge sounds fixed (incl. vibration if haptic feedback is enabled)
+  - Sound & Notifications - Other sounds : charge vibration
   - Sound & Notifications : notification light (per-app)
   - Sound & Notifications : battery light (separate color for slow/fast charging)
   - Apps : per app controls for keyguard notifications (ongoing not shown on lockscreen by default)
