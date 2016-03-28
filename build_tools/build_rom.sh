@@ -52,7 +52,7 @@ if [ -e out/dist/aosp_$1-ota-eng.$USER.zip ]; then
    echo "Package complete for $1"
    echo "-----------------------------------------------------------------------------"
 
-   ln -f out/dist/aosp_$1-ota-eng.yank555-lu.zip $AOSP_TARGET_PACKAGE
+   ln -f out/dist/aosp_$1-ota-eng.$USER.zip $AOSP_TARGET_PACKAGE
 
    echo
    echo "Package :"
