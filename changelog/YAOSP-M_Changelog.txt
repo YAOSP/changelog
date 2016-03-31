@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 1.04 - 27/03/2016
+YAOSP-M Changelog 1.05 - 01/04/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r22 (synced on 20160310 1435 CET)
@@ -61,7 +61,7 @@ Settings
                                                        music, reboot, battery saver, volume, sound,
                                                        expanded desktop, compass, ime
                                                        (long-press for all tiles, advanced location)
-  - System UI Tuning : QS settings - first row tile size
+  - System UI Tuning : QS settings - Griffin Millender's editor (up to 3 tiles in top row by drag & drop)
   - System UI Tuning : QS settings - custom number of tiles per row (3-4-5)
   - System UI Tuning : QS settings - quick pulldown (incl. always option)
   - System UI Tuning : QS settings - smart pulldown
@@ -120,6 +120,7 @@ Features
   - multi-window : make icons white, popup background material dark
   - show charging current in mAh on lockscreen
   - add Viper4Android support in SELinux enforcing
+  - add support for alternate WebView provider package
 
 Flasher ZIP
 -----------
@@ -154,6 +155,9 @@ Device - Angler
   - add notification and battery light
     (dimming is not possible, only a few colors will work, this seems a device limitiation)
   - added native init.d support
+  - consider charging fast above 1300mA/h instead of 1500mA/h
+  - add vendor overlay for CarrierConfig (Thx to Beanstown)
+     (this could fix carrier specific issues, like WiFi calling etc.)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Flounder
@@ -240,6 +244,7 @@ Device - Shamu
     (avoids putting device to dualcore on 36° temp or unstable battery current, nice idea
      but didn't help with the shutdown issues at all, just crippled performance)
   - add native init.d support
+  - consider charging fast above 1300mA/h instead of 1500mA/h
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Hammerhead
@@ -296,6 +301,7 @@ Device - Hammerhead
       - fastcharge : usb 1000mA/h / ac 1800mA/h
   - add notification and battery light
   - add native init.d support
+  - consider charging fast above 1100mA/h instead of 1500mA/h
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Flo
