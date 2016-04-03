@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Changelog 1.05 - 01/04/2016
+YAOSP-M Changelog 1.06 - xx/04/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r22 (synced on 20160310 1435 CET)
@@ -8,6 +8,7 @@ Settings
 --------
   - WiFi : toggle to change "scan always available"
   - More : statusbar network indicators
+  - More - Mobile Networks - Network operators : don't auto-run a search when entering submenu
   - Display : 0, 90, 180 and 270 degree & lockscreen rotation
   - Display : double tap to sleep gesture (statusbar, navbar, lockscreen anywhere)
   - Display : custom LCD density
