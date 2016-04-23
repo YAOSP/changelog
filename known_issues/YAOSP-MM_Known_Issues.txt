@@ -1,6 +1,6 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-M Known Issues as of 27/02/2016
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSP-MM Known Issues as of 09/04/2016
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Severe (causing crashes or reboots)
 -----------------------------------
@@ -28,3 +28,5 @@ Low priority (like design glitches...)
 - Language & Input - Navigation : NavBar options (Slim NavBar)
 
   using a custom icon (bitmap) will not apply alpha level the same way as on vector icons
+
+- Download / upload system notification icon sometimes animates too fast

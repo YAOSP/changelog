@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.10 - 05/04/2016
+YAOSP-MM Changelog 1.10 - 24/04/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r24 MHC19Q (synced on 20160405 1418 CET)
@@ -57,10 +57,10 @@ Settings
   - About device : show hardware and processor info
   - About device : show SELinux status in Settings About
   - System UI Tuning : show entry
-  - System UI Tuning : QS settings - 16 custom tiles : usb tether, ambient display, screenshot,
+  - System UI Tuning : QS settings - 17 custom tiles : usb tether, ambient display, screenshot,
                                                        nfc, sync, screenoff, timeout, brightness,
                                                        music, reboot, battery saver, volume, sound,
-                                                       expanded desktop, compass, ime
+                                                       expanded desktop, compass, ime, caffeine
                                                        (long-press for all tiles, advanced location)
   - System UI Tuning : QS settings - Griffin Millender's editor (up to 3 tiles in top row by drag & drop)
   - System UI Tuning : QS settings - custom number of tiles per row (3-4-5)
@@ -122,6 +122,7 @@ Features
   - show charging current in mAh on lockscreen
   - add Viper4Android support in SELinux enforcing
   - add support for alternate WebView provider package
+  - add native exfat & ntfs USB-OTG support
 
 Flasher ZIP
 -----------
@@ -144,6 +145,8 @@ Kernel - Angler
   - FIOPS I/O scheduler
   - fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
   - fix fs/pipe.c related exploit (CVE-2015-1805)
+  - add exfat 1.2.19 sources (Samsung ORSC G930FXXU1APAW sourcedrop)
+  - add ntfs read/write support
 
 Device - Angler
 ---------------
@@ -160,6 +163,9 @@ Device - Angler
   - consider charging fast above 1300mA/h instead of 1500mA/h
   - add vendor overlay for CarrierConfig (Thx to Beanstown)
      (this could fix carrier specific issues, like WiFi calling etc.)
+  - disabled userspace touchboost
+  - setup in-kernel touchboost in a more moderate way
+  - increase thermal throttling thresholds by 10°
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Shamu
