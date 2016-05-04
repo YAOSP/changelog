@@ -1,8 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.10 - 24/04/2016
+YAOSP-MM Changelog 1.20 - 04/05/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Based on AOSP 6.0.1_r24 MHC19Q (synced on 20160405 1418 CET)
+Based on AOSP 6.0.1_r25 MTC19T (synced on 20160502 2318 CET)
 
 Settings
 --------
@@ -136,7 +136,7 @@ Device specific changes - Angler
 
 Kernel - Angler
 ---------------
-  - based on android-msm-angler-3.10-marshmallow-dr1.5/android-6.0.1_r0.40
+  - based on android-msm-angler-3.10-marshmallow-dr1.6/android-6.0.1_r0.63
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
