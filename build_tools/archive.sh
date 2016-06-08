@@ -13,7 +13,7 @@ if [ "$1" != "" ]; then
     cd $src_pwd
     tar cvf external_busybox.tar external/busybox
     tar cvf external_exfat.tar external/exfat
-    tar cvf external_e2fsprogs.tar external/e2fsprogs
+#    tar cvf external_e2fsprogs.tar external/e2fsprogs
     tar cvf external_fuse.tar external/fuse
     tar cvf external_ntfs-3g.tar external/ntfs-3g
     tar cvf kernel.tar kernel
@@ -21,12 +21,14 @@ if [ "$1" != "" ]; then
     tar cvf vendor.tar vendor
     tar cvf yaosp.tar yaosp
     mv $src_pwd/*.tar $dst_pwd
+    cp $src_pwd/build_rom.sh $dst_pwd
     echo " "
     echo "Started  : $start_time"
     echo "Finished : `date +'%d/%m/%y %H:%M:%S'`"
     echo " "
     echo "Source      : $src_pwd"
     echo "Destination : $dst_pwd"
+    ls -al $dst_pwd/*.tar
     exit
   fi
 fi
