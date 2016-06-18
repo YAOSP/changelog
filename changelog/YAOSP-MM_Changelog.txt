@@ -1,8 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.20 - 04/05/2016
+YAOSP-MM Changelog 1.25 - 18/06/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Based on AOSP 6.0.1_r25 MTC19T (synced on 20160502 2318 CET)
+Based on AOSP 6.0.1_r45 MTC19V (synced on 20160607 1306 CET)
 
 Settings
 --------
@@ -48,7 +48,8 @@ Settings
   - Language & Input - Navigation : NavBar options - SlimDim by Dankoman
   - Language & Input - Navigation : NavBar options - Google Now on Tap is SlimAction an can be set anywhere
   - Language & Input - Navigation : NavBar options - Longpress Home can be customized
-  - Date and Time : statusbar clock and date customizations (incl. show seconds)
+  - Language & Input - Navigation : NavBar options - Allow up to 7 buttons
+  - Date and Time : statusbar clock and date customizations (incl. show seconds and color override)
   - Developer : toggle Android debugging notification
   - Developer : make unaccounted and over-counted battery usage configurable
   - Developer : finer animation speed control (slider)
@@ -91,6 +92,7 @@ Features
 --------
   - All added features are completely translated into french
   - All added features are completely translated into german
+  - added features in Settings are translated into spanish (thanx go to csolanol)
   - added busybox
   - gapps patches
   - Keep Google services enabled to avoid excessive wakeups during screen off
@@ -123,6 +125,7 @@ Features
   - add Viper4Android support in SELinux enforcing
   - add support for alternate WebView provider package
   - add native exfat & ntfs USB-OTG support
+  - enable dev options by default
 
 Flasher ZIP
 -----------
@@ -136,7 +139,7 @@ Device specific changes - Angler
 
 Kernel - Angler
 ---------------
-  - based on android-msm-angler-3.10-marshmallow-dr1.6/android-6.0.1_r0.63
+  - based on android-msm-angler-3.10-marshmallow-dr1.6/android-6.0.1_r0.88
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
@@ -173,7 +176,7 @@ Device specific changes - Shamu
 
 Kernel - Shamu
 --------------
-  - based on android-msm-shamu-3.10-marshmallow-mr1/android-6.0.1_r0.35
+  - based on android-msm-shamu-3.10-marshmallow-mr2/android-6.0.1_r0.85
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
@@ -237,7 +240,7 @@ Device specific changes - Hammerhead
 
 Kernel - Hammerhead
 -------------------
-  - based on android-msm-hammerhead-3.4-marshmallow-mr1/android-6.0.1_r0.34
+  - based on android-msm-hammerhead-3.4-marshmallow-mr2/android-6.0.1_r0.84
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
@@ -288,6 +291,7 @@ Device - Hammerhead
   - add notification and battery light
   - add native init.d support
   - consider charging fast above 1100mA/h instead of 1500mA/h
+  - enable all 2.4GHz and 5GHz channels in any case
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Flounder
@@ -295,7 +299,7 @@ Device specific changes - Flounder
 
 Kernel - Flounder
 -----------------
-  - based on android-tegra-flounder-3.10-marshmallow-mr1/android-6.0.1_r0.33
+  - based on android-tegra-flounder-3.10-marshmallow-mr2/android-6.0.1_r0.83
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
@@ -320,7 +324,7 @@ Device specific changes - Flo
 
 Kernel - Flo
 ------------
-  - based on android-msm-flo-3.4-marshmallow-mr1/android-6.0.1_r0.31
+  - based on android-msm-flo-3.4-marshmallow-mr2/android-6.0.1_r0.81
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
