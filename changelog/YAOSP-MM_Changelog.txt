@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.27 - 26/06/2016
+YAOSP-MM Changelog 1.28 - 03/07/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r45 MTC19V (synced on 20160607 1306 CET)
@@ -9,6 +9,7 @@ Settings
   - WiFi : toggle to change "scan always available"
   - More : statusbar network indicators
   - More - Mobile Networks - Network operators : don't auto-run a search when entering submenu
+  - Display : Lockscreen wallpaper
   - Display : 0, 90, 180 and 270 degree & lockscreen rotation
   - Display : double tap to sleep gesture (statusbar, navbar, lockscreen anywhere)
   - Display : custom LCD density
@@ -21,6 +22,7 @@ Settings
   - Sound & Notifications : unlink notification volume
   - Sound & Notifications : increasing ring feature
   - Sound & Notifications : toggle to reorient volume rockers according to screen rotation
+  - Sound & Notifications : volume rockers wake device
   - Sound & Notifications : volume rockers to skip music track
   - Sound & Notifications : volume steps (5, 7, 15, 30, 45, 60)
   - Sound & Notifications - Other sounds : camera sound toggle
@@ -127,6 +129,7 @@ Features
   - add support for alternate WebView provider package
   - add native exfat & ntfs USB-OTG support
   - enable dev options by default
+  - personalized YAOSP boot animation
 
 Flasher ZIP
 -----------
