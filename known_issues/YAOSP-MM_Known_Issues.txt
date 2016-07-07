@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Known Issues as of 09/04/2016
+YAOSP-MM Known Issues as of 07/07/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Severe (causing crashes or reboots)

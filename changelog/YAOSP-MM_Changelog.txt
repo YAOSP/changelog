@@ -1,8 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.28 - 03/07/2016
+YAOSP-MM Changelog 1.30 - 07/07/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Based on AOSP 6.0.1_r45 MTC19V (synced on 20160607 1306 CET)
+Based on AOSP 6.0.1_r45 MTC19Z (synced on 20160707 0756 CET)
 
 Settings
 --------
@@ -219,7 +219,7 @@ Device - Shamu
           - Screen on  CPU min/max : 300MHz / 2.7GHz
           - Screen off CPU min/max : 300MHz / 1.5GHz
           - Wakeup kick            : 2.0GHz for 3 secs
-          - Touchboost lo/hi       : 883MHz / 1.3GHz
+          - Touchboost lo/hi       : 1.2GHz / 1.5GHz
           -     duration/switch    : 1 sec  / 4 touches for lo -> hi
           - DVFS userspace lockout : ignore
       - Setup CPU governor
