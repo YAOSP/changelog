@@ -173,6 +173,34 @@ Device - Angler
   - disabled userspace touchboost
   - setup in-kernel touchboost in a more moderate way
   - increase thermal throttling thresholds by 10°
+  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Device specific changes - Bullhead
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kernel - Bullhead
+-----------------
+  - XZ kernel compression
+  - /proc/config.gz support
+  - Westwood TCP congestion control default
+  - KCAL support
+  - FIOPS I/O scheduler
+  - LiveDisplay support  
+  - source-based ntfs filesystem support
+  - touchboost controls
+  
+Device - Bullhead
+-----------------
+  - enable doze power saving mode
+  - Make encryption optional in fstab
+  - revert dm-verity
+  - increase swap to 768Mb
+  - default to fiops I/O scheduler / 1024Kb readahead buffer
+  - add notification and battery light
+  - added native init.d support
+  - consider charging fast above 1300mA/h instead of 1500mA/h
+  - add vendor overlay for CarrierConfig (Thx to Beanstown)
+     (this could fix carrier specific issues, like WiFi calling etc.)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Shamu
