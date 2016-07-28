@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.32 - 21/07/2016
+YAOSP-MM Changelog 1.33 - 28/07/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r45 MTC19Z (synced on 20160707 0756 CET)
@@ -131,6 +131,7 @@ Features
   - add Viper4Android support in SELinux enforcing
   - add support for alternate WebView provider package
   - add native exfat & ntfs USB-OTG support
+  - add download speed and eta to expanded download provider notification
   - enable dev options by default
   - personalized YAOSP boot animation
 
