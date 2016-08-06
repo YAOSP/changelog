@@ -13,9 +13,9 @@ if [ "$1" != "" ]; then
     cd $src_pwd
     tar cvf external_busybox.tar external/busybox
     tar cvf external_exfat.tar external/exfat
-#    tar cvf external_e2fsprogs.tar external/e2fsprogs
     tar cvf external_fuse.tar external/fuse
     tar cvf external_ntfs-3g.tar external/ntfs-3g
+    tar cvf frameworks_opt_cards.tar frameworks/opt/cards
     tar cvf kernel.tar kernel
     tar cvf manifest.tar manifest
     tar cvf vendor.tar vendor
