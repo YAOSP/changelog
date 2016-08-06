@@ -18,6 +18,7 @@ if [ "$1" != "" ]; then
     tar cvf frameworks_opt_cards.tar frameworks/opt/cards
     tar cvf kernel.tar kernel
     tar cvf manifest.tar manifest
+    tar cvf system_extras_su.tar system/extras/su
     tar cvf vendor.tar vendor
     tar cvf yaosp.tar yaosp
     mv $src_pwd/*.tar $dst_pwd
