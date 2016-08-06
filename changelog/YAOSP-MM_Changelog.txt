@@ -1,8 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.33 - 28/07/2016
+YAOSP-MM Changelog 1.40 - 07/08/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Based on AOSP 6.0.1_r45 MTC19Z (synced on 20160707 0756 CET)
+Based on AOSP 6.0.1_r62 MTC20F (synced on 20160805 1145 CET)
 
 Settings
 --------
@@ -147,7 +147,7 @@ Device specific changes - Angler
 
 Kernel - Angler
 ---------------
-  - based on android-msm-angler-3.10-marshmallow-dr1.6/android-6.0.1_r0.88
+  - based on android-msm-angler-3.10-marshmallow-dr1.6-1/android-6.0.1_r0.111
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
@@ -184,6 +184,7 @@ Device specific changes - Bullhead
 
 Kernel - Bullhead
 -----------------
+  - based on android-msm-bullhead-3.10-marshmallow-dr1.6/android-6.0.1_r0.112
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
@@ -212,7 +213,7 @@ Device specific changes - Shamu
 
 Kernel - Shamu
 --------------
-  - based on android-msm-shamu-3.10-marshmallow-mr2/android-6.0.1_r0.85
+  - based on android-msm-shamu-3.10-marshmallow-mr2/android-6.0.1_r0.103
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
@@ -276,7 +277,7 @@ Device specific changes - Hammerhead
 
 Kernel - Hammerhead
 -------------------
-  - based on android-msm-hammerhead-3.4-marshmallow-mr2/android-6.0.1_r0.84
+  - based on android-msm-hammerhead-3.4-marshmallow-mr2/android-6.0.1_r0.108
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
@@ -335,7 +336,7 @@ Device specific changes - Flounder
 
 Kernel - Flounder
 -----------------
-  - based on android-tegra-flounder-3.10-marshmallow-mr2/android-6.0.1_r0.83
+  - based on android-tegra-flounder-3.10-marshmallow-mr2/android-6.0.1_r0.106
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
@@ -360,7 +361,7 @@ Device specific changes - Flo
 
 Kernel - Flo
 ------------
-  - based on android-msm-flo-3.4-marshmallow-mr2/android-6.0.1_r0.81
+  - based on android-msm-flo-3.4-marshmallow-mr2/android-6.0.1_r0.105
   - XZ kernel compression
   - /proc/config.gz support
   - Westwood TCP congestion control default
