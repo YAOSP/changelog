@@ -193,6 +193,7 @@ Kernel - Bullhead
   - LiveDisplay support  
   - source-based ntfs filesystem support
   - touchboost controls
+  - msm_hotplug driver
   
 Device - Bullhead
 -----------------
