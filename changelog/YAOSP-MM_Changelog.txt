@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.40 - 07/08/2016
+YAOSP-MM Changelog 1.41 - 08/08/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r62 MTC20F (synced on 20160805 1145 CET)
@@ -156,8 +156,10 @@ Kernel - Angler
   - FIOPS I/O scheduler
   - fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
   - fix fs/pipe.c related exploit (CVE-2015-1805)
+  - fix quadrooter (CVE-2016-5340/CVE-2016-2059)
   - add exfat 1.2.19 sources (Samsung ORSC G930FXXU1APAW sourcedrop)
   - add ntfs read/write support
+  - msm_hotplug driver
 
 Device - Angler
 ---------------
@@ -194,6 +196,7 @@ Kernel - Bullhead
   - source-based ntfs filesystem support
   - touchboost controls
   - msm_hotplug driver
+  - fix quadrooter (CVE-2016-5340/CVE-2016-2059)
   
 Device - Bullhead
 -----------------
@@ -239,6 +242,7 @@ Kernel - Shamu
   - fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
   - fix TMO WiFi calling
   - fix fs/pipe.c related exploit (CVE-2015-1805)
+  - fix quadrooter (CVE-2016-5340/CVE-2016-2059)
 
 Device - Shamu
 --------------
@@ -303,6 +307,7 @@ Kernel - Hammerhead
   - CPU Hardlimit v2.2 (Yank555.lu)
   - kexec hardboot support (aka. Multi-ROM)
   - fix fs/pipe.c related exploit (CVE-2015-1805)
+  - fix quadrooter (CVE-2016-5340)
 
 Device - Hammerhead
 -------------------
@@ -342,8 +347,9 @@ Kernel - Flounder
   - /proc/config.gz support
   - Westwood TCP congestion control default
   - FIOPS I/O scheduler
-  - Fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
+  - fix keyring related exploits (CVE-2015-7550 & CVE-2016-0728)
   - fix fs/pipe.c related exploit (CVE-2015-1805)
+  - fix quadrooter (CVE-2016-5340)
 
 Device - Flounder
 -----------------
@@ -371,6 +377,7 @@ Kernel - Flo
   - Yankdemand governor (Yank555.lu)
   - Intellimm governor (faux123)
   - fix fs/pipe.c related exploit (CVE-2015-1805)
+  - fix quadrooter (CVE-2016-5340)
 
 Device - Flo
 ------------
