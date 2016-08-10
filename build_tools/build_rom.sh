@@ -23,11 +23,14 @@ else if [ "$1" = "angler" ]; then
    lunch aosp_angler-userdebug
 else if [ "$1" = "flounder" ]; then
    lunch aosp_flounder-userdebug
+else if [ "$1" = "bullhead" ]; then
+   lunch aosp_bullhead-userdebug
 else
    echo "-----------------------------------------------------------------------------"
    echo "Unsupported device '$1', stopping ..."
    echo "-----------------------------------------------------------------------------"
    exit
+fi
 fi
 fi
 fi
