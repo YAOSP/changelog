@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.41 - 08/08/2016
+YAOSP-MM Changelog 1.42 - 26/08/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r62 MTC20F (synced on 20160805 1145 CET)
@@ -19,6 +19,7 @@ Settings
   - Display : avoid accidental wakeups (check proximity sensor prior to turning screen on)
   - Display : Advanced doze options (Slim Doze options by Dankoman)
   - Display - Advanced doze options : Double-tap to wake on doze option
+  - Display : Settings Dashboard customization
   - Sound & Notifications : unlink notification volume
   - Sound & Notifications : increasing ring feature
   - Sound & Notifications : toggle to reorient volume rockers according to screen rotation
@@ -38,6 +39,7 @@ Settings
   - Battery : additional battery saver steps
   - Location : 3-dot menu (Scanning)
   - Security : quick unlock (only works for 4-digit PINs / Passwords to avoid lockout)
+  - Security : Show negociated charger max current on lockscreen (in mA/h)
   - Security : Global menu options
   - Security : Advanced reboot (enabled everywhere by default)
   - Language & Input - Advanced options : IME selector notification
@@ -55,6 +57,7 @@ Settings
   - Date and Time : statusbar clock and date customizations (incl. show seconds and color override)
   - Developer : enable baked-in root access
   - Developer : switch to show/hide the # SU statusbar icon
+  - Developer : switch to enabled/disable ADB over Network
   - Developer : toggle Android debugging notification
   - Developer : make unaccounted and over-counted battery usage configurable
   - Developer : finer animation speed control (slider)
@@ -67,7 +70,8 @@ Settings
   - System UI Tuning : QS settings - 17 custom tiles : usb tether, ambient display, screenshot,
                                                        nfc, sync, screenoff, timeout, brightness,
                                                        music, reboot, battery saver, volume, sound,
-                                                       expanded desktop, compass, ime, caffeine
+                                                       expanded desktop, compass, ime, caffeine,
+                                                       ADB over Network
                                                        (long-press for all tiles, advanced location)
   - System UI Tuning : QS settings - Griffin Millender's editor (up to 3 tiles in top row by drag & drop)
   - System UI Tuning : QS settings - custom number of tiles per row (3-4-5)
@@ -169,7 +173,7 @@ Device - Angler
   - use new 3gb dalvik heap and hwui
   - add functionality to enable/disable double-tap wake gesture in Display Settings
   - increase swap to 1Gb
-  - default to fiops I/O scheduler / 1024Kb readahead buffer
+  - default to row I/O scheduler / 1024Kb readahead buffer
   - add notification and battery light
     (dimming is not possible, only a few colors will work, this seems a device limitiation)
   - added native init.d support
@@ -178,7 +182,6 @@ Device - Angler
      (this could fix carrier specific issues, like WiFi calling etc.)
   - disabled userspace touchboost
   - setup in-kernel touchboost in a more moderate way
-  - increase thermal throttling thresholds by 10°
   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Device specific changes - Bullhead
