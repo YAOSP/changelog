@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.42 - 26/08/2016
+YAOSP-MM Changelog 1.43 - 06/09/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r62 MTC20F (synced on 20160805 1145 CET)
@@ -8,6 +8,7 @@ Settings
 --------
   - WiFi : toggle to change "scan always available"
   - More : statusbar network indicators
+  - More - Mobile Networks - toggle to show/hide data connection in signal icon when roaming (instead of "R")
   - More - Mobile Networks - Network operators : don't auto-run a search when entering submenu
   - Display : Lockscreen wallpaper
   - Display : 0, 90, 180 and 270 degree & lockscreen rotation
@@ -64,6 +65,7 @@ Settings
   - Developer : customize device hostname
   - Superuser : access to list of su granted apps (baked in su)
   - SuperSU : include SuperSU app in settings (if installed)
+  - OMS/Substratum
   - About device : show hardware and processor info
   - About device : show SELinux status in Settings About
   - System UI Tuning : show entry
@@ -163,7 +165,7 @@ Kernel - Angler
   - fix quadrooter (CVE-2016-5340/CVE-2016-2059)
   - add exfat 1.2.19 sources (Samsung ORSC G930FXXU1APAW sourcedrop)
   - add ntfs read/write support
-  - msm_hotplug driver
+  - msm_hotplug driver v2.1 (updated by Yank555.lu)
 
 Device - Angler
 ---------------
@@ -198,7 +200,7 @@ Kernel - Bullhead
   - LiveDisplay support  
   - source-based ntfs filesystem support
   - touchboost controls
-  - msm_hotplug driver
+  - msm_hotplug driver v2.1 (updated by Yank555.lu)
   - fix quadrooter (CVE-2016-5340/CVE-2016-2059)
   
 Device - Bullhead
