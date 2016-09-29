@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSP-MM Changelog 1.43 - 06/09/2016
+YAOSP-MM Changelog 1.44 - 28/09/2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSP 6.0.1_r62 MTC20F (synced on 20160805 1145 CET)
@@ -140,6 +140,7 @@ Features
   - add download speed and eta to expanded download provider notification
   - enable dev options by default
   - personalized YAOSP boot animation
+  - huge number of behind the scene fixes in frameworks_base (Thanx to Nate/PureNexus)
 
 Flasher ZIP
 -----------
